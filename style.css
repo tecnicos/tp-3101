@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css');
+*{
+    font-family: "open sans", sans-serif;   
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    padding: 15px; 
+}
+div,nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
+}
+li{
+    display: inline;
+    padding: 20px;
+   
+}
+h2{
+    color: white;
+    text-transform: uppercase;
+}
+nav{
+    float: right;
+    padding: 8px;
+}
+.hero{
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+article{
+    text-align: center;
+    width: 400px;
+    margin: auto    ;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+button{
+    cursor: pointer;
+    padding: 16px;
+    width: 110;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+button:hover {
+   background-color: black;
+   color: white; 
+}
+.liste:hover,.active{
+    background-color:#444444;
+    padding-top: 23px;
+    padding-bottom: 18px;
+    }
+.border{
+    border-bottom: 10px solid;
+    width: 50px;
+    margin: auto;
+  
+}
+p{
+    margin-top: 10px;
+    letter-spacing: .03em;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+    
+    margin: 0;
+}
+.info{
+    background-color: white;
+    text-align: center;
+    padding: 70px 0;
+}
+.cafe,.horaire{
+    display: inline-block;  
+    width: 500px;
+    margin: auto;
+    font-size: 40px;
+}
+h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.image{
+    background-image: url('img/person.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.submit{
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
+.submit:hover
+{
+    background-color: white;
+    outline: 1px solid;
+    color: black;
+}
+.reservation{
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    padding: 90px 0;
+}
+.reserv{
+    font-weight: 700;
+    font-size: 2em;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.form{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    padding: 180px 0;
+    font-weight: bolder;
+}
+.form-name,.form-email{
+    display: block;
+    width: 500px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-color: lightgray;
+    border: 0.1em solid;
+    border-color: lightgray;
+}
+.form-message{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-color: lightgray;
+}
+.form-title{
+    margin-bottom:40px;
+    border-bottom: 0.2px solid rgb(197, 192, 192);
+    padding-bottom: 5px;
+}
+h4{
+    font-weight: 800;
+    font-size: larger;
+}
+.map{
+    width: 800px;
+    margin: 170px auto;
+}
+.mapping,.place{
+    display: inline-block;
+    vertical-align: top;
+}
+.place{
+    float: right;
+    font-weight: bolder;
+}
+.place-text{
+    padding-bottom: 0;
+}
+.address{
+    font-weight: normal;
+}
+.where{
+    font-size: x-large;
+    border-bottom: 0.1px solid;
+}
+.pink{
+ border: 0.1px solid;
+ padding: 3px 5px;
+ border-radius: 50%;
+ background-color: #BE418C;
+ color: white;
+}
+.orange{
+    border: 0.1px solid;
+ padding: 3px 5px;
+ border-radius: 50%;
+ background-color: #8C5E24;
+ color: white;
+}
+.mapping{
+    border: 0.1px solid white;
+    border-radius: 5px;
+}
